@@ -5,6 +5,7 @@
     "outDir": "dist",
     "target": "ESNext",
     "sourceMap": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "strict": true,
   }
 }
