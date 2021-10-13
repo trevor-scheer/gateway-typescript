@@ -1,0 +1,26 @@
+{
+  "name": "apollo-server-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "nodemon dist",
+    "clean": "rm -rf node_modules dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "typescript": "latest"
+  },
+  "dependencies": {
+    "@apollo/subgraph": "latest",
+    "@apollo/gateway": "latest",
+    "apollo-server": "latest",
+    "graphql": "latest"
+  }
+}
